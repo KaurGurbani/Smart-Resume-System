@@ -1,0 +1,13 @@
+Flask
+pandas
+pdfplumber
+spacy
+scikit-learn
+
+*Explanation:
+
+Flask: For the web interface: Flask, render_template, etc.
+pandas: For tabular data, Excel export
+pdfplumber: For reading/resume parsing from PDF
+spacy: For NLP/resume content understanding
+scikit-learn: (scikit-learn)	For TfidfVectorizer and cosine_similarity
