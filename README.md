@@ -83,16 +83,16 @@ Smart-Resume-System/
 
 ---
 
-## How to Run Locally
+## 🧪 How to Run Locally
 
-1. Clone the repository:
+1. Clone the repository
 git clone https://github.com/KaurGurbani/Smart-Resume-System.git
 cd Smart-Resume-System
 
-2. Install dependencies:
+2. Install dependencies
 pip install -r requirements.txt
 
-3. Run the Python script:
+3. Run the Python script
 python src/resume_parser.py
 
 ---
@@ -122,4 +122,8 @@ Gurbani Kaur
 🔗 LinkedIn
 🧑‍💻 GitHub
 
----
+
+
+
+
+
