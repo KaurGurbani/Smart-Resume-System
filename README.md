@@ -1,4 +1,4 @@
-# 📄 Smart Resume System
+# Smart Resume System
 
 An intelligent resume parsing and classification platform that automates resume processing and improves recruiter efficiency by up to 40%.
 
@@ -9,29 +9,29 @@ An intelligent resume parsing and classification platform that automates resume 
 
 ## 📚 Table of Contents
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Screenshots](#screenshots)
-- [File Structure](#file-structure)
-- [How to Run Locally](#how-to-run-locally)
-- [Documentation](#documentation)
-- [License](#license)
-- [Contributing](#contributing)
-- [Author](#author)
+- [🚀 Features](#features)
+- [🛠️ Tech Stack](#tech-stack)
+- [🖼 Screenshots](#screenshots)
+- [📂 File Structure](#file-structure)
+- [🧪 How to Run Locally](#how-to-run-locally)
+- [🗂 Documentation](#documentation)
+- [📄 License](#license)
+- [🤝 Contributing](#contributing)
+- [👩‍💻 Author](#author)
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📤 Upload and parse resumes (PDFs)
-- 🧠 Extract and structure resume data using Python
-- 📊 Store data using SQL/NoSQL databases
-- 📈 Excel-based automation for fast filtering/sorting
-- 📎 Clear documentation with user-friendly flow
+- Upload and parse resumes (PDFs)
+- Extract and structure resume data using Python
+- Store data using SQL/NoSQL databases
+- Excel-based automation for fast filtering/sorting
+- Clear documentation with user-friendly flow
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: Python  
 - **Database**: SQL / NoSQL  
@@ -40,7 +40,7 @@ An intelligent resume parsing and classification platform that automates resume 
 
 ---
 
-## 🖼 Screenshots
+## Screenshots
 
 ### 🔹 Upload Interface
 ![Upload UI](assets/upload_ui.png)
@@ -62,7 +62,7 @@ An intelligent resume parsing and classification platform that automates resume 
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```bash
 Smart-Resume-System/
@@ -80,50 +80,3 @@ Smart-Resume-System/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-
----
-
-## 🧪 How to Run Locally
-
-1. Clone the repository
-git clone https://github.com/KaurGurbani/Smart-Resume-System.git
-cd Smart-Resume-System
-
-2. Install dependencies
-pip install -r requirements.txt
-
-3. Run the Python script
-python src/resume_parser.py
-
----
-
-## 🗂 Documentation
-
-📄 Smart Resume System – Minor Project Presentation (PDF)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
-
----
-
-## 👩‍💻 Author
-
-Gurbani Kaur
-📧 gurbanikaur1702@gmail.com
-🔗 LinkedIn
-🧑‍💻 GitHub
-
-
-
-
-
-
