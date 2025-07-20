@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script>
+        window.jsPDF = window.jspdf.jsPDF; 
+    </script>
+</head>
+<body>
+
+    <h2><center>Resume Builder</center></h2>
+ <div class="container">
+     <div class="form-container">
+         <label>Full Name:</label>
+         <input type="text" id="name">
+ 
+         <label>Email:</label>
+         <input type="email" id="email">
+ 
+         <label>Phone:</label>
+         <input type="text" id="phone">
+ 
+         <label>LinkedIn:</label>
+         <input type="text" id="linkedin">
+ 
+         <label>Education:</label>
+         <textarea id="education"></textarea>
+ 
+         <label>Experience:</label>
+         <textarea id="experience"></textarea>
+ 
+         <label>Skills:</label>
+         <textarea id="skills"></textarea>
+ 
+         <label>Projects:</label>
+         <textarea id="projects"></textarea>
+ 
+        <button type="button" id="generate-btn">Generate Resume</button>
+        <button type="button" id="download-btn">Download as PDF</button>
+        <input type="file" id="resumeFile">
+
+        </div>
+
+        <div class="resume-container">
+            <div id="resume" class="resume">
+                <h2 id="r-name">Your Name</h2>
+                <p><strong>Email:</strong> <span id="r-email">your.email@example.com</span></p>  
+                <p><strong>Phone:</strong> <span id="r-phone">123-456-7890</span></p>
+                <p><strong>LinkedIn:</strong> <span id="r-linkedin">@username</span></p>
+                <hr>
+                <h3>Education</h3>
+                <p id="r-education">Your education details...</p>
+                <hr>
+                <h3>Experience</h3>
+                <p id="r-experience">Your experience details...</p>
+                <hr>
+                <h3>Skills</h3>
+                <p id="r-skills">Your skills...</p>
+                <hr>
+                <h3>Projects</h3>
+                <p id="r-projects">Your projects...</p>
+            </div>
+        </div>
+    </div>
+
+    <a href="{{ url_for('homepage') }}" class="btn">Back to Home</a>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

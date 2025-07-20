@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scored Resumes</title>
+    <link rel="stylesheet" href="https://cdn.tailwindcss.com">
+</head>
+<body class="bg-gray-50 min-h-screen p-8">
+    <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6">
+        <h1 class="text-2xl font-bold mb-6 text-center">Resume Scoring Results</h1>
+
+        <table class="w-full border-collapse">
+            <thead>
+                <tr class="bg-blue-100">
+                    <th class="p-3 border text-left">Rank</th>
+                    <th class="p-3 border text-left">Name</th>
+                    <th class="p-3 border text-left">Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for candidate in ranked_candidates %}
+                <tr class="hover:bg-gray-100">
+                    <td class="p-3 border">{{ loop.index }}</td>
+                    <td class="p-3 border">{{ candidate.name }}</td>
+                    <td class="p-3 border">{{ candidate.score }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <div class="mt-6 text-center">
+            <a href="/" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
