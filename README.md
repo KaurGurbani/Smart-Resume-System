@@ -107,7 +107,7 @@ Smart-Resume-System/
 
 ## Documentation
 
-📄 [Smart Resume System – Minor Project Presentation (PDF)](docs/Smart-Resume-System-Presentation.pdf)
+📄 [Smart Resume System – Minor Project Presentation (PDF)](docs/Smart-Resume-System-Presentation.pdf.pdf)
 
 ---
 
