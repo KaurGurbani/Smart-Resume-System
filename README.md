@@ -85,7 +85,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 Gurbani Kaur
 📧 gurbanikaur1702@gmail.com
-🔗 LinkedIn
+🔗 [LinkedIn](https://www.linkedin.com/in/gurbani-kaur-saluja/)
 🧑‍💻 GitHub
 
 ---
