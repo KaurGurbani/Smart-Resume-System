@@ -74,7 +74,7 @@ Smart-Resume-System/
 │   ├── output_table.png
 │   ├── output_table2.png
 │   └── coderun.png
-├── docs/
+├── doc/
 │   └── Smart-Resume-System-Presentation.pdf
 ├── requirements.txt
 ├── README.md
@@ -107,7 +107,7 @@ Smart-Resume-System/
 
 ## Documentation
 
-📄 [Smart Resume System – Minor Project Presentation (PDF)](docs/Smart-Resume-System-Presentation.pdf.pdf)
+📄 [Smart Resume System – Minor Project Presentation (PDF)](doc/Smart-Resume-System-Presentation.pdf.pdf)
 
 ---
 
