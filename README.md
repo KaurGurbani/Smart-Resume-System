@@ -80,3 +80,47 @@ Smart-Resume-System/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+
+---
+
+## How to Run Locally
+
+1. **Clone the repository**
+git clone https://github.com/KaurGurbani/Smart-Resume-System.git
+cd Smart-Resume-System
+
+
+2. **Install dependencies**
+pip install -r requirements.txt
+
+
+3. **Run the Python script**
+python src/smart_resume_system.py
+
+
+---
+
+## Documentation
+
+📄 [Smart Resume System – Minor Project Presentation (PDF)](docs/Smart-Resume-System-Presentation.pdf)
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+---
+
+## Author
+
+**Gurbani Kaur**  
+📧 [gurbanikaur1702@gmail.com](mailto:gurbanikaur1702@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/gurbani-kaur-saluja/)  
+🧑‍💻 [GitHub](https://github.com/KaurGurbani)
