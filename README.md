@@ -10,8 +10,7 @@ An intelligent resume parsing and classification platform that automates resume 
 ## 📚 Table of Contents
 
 - [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Screenshots](#️-screenshots)
+- [Tech Stack](#-tech stack)
 - [File Structure](#-file-structure)
 - [How to Run Locally](#-how-to-run-locally)
 - [License](#-license)
