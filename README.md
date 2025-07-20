@@ -83,9 +83,6 @@ Smart-Resume-System/
 
 ---
 
-
----
-
 ## How to Run Locally
 
 1. **Clone the repository**
