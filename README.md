@@ -1,4 +1,3 @@
-
 # 📄 Smart Resume System
 
 An intelligent resume parsing and classification platform that automates resume processing and improves recruiter efficiency by up to 40%.
@@ -12,6 +11,7 @@ An intelligent resume parsing and classification platform that automates resume 
 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
+- [Screenshots](#screenshots)
 - [File Structure](#file-structure)
 - [How to Run Locally](#how-to-run-locally)
 - [Documentation](#documentation)
@@ -40,28 +40,55 @@ An intelligent resume parsing and classification platform that automates resume 
 
 ---
 
+## 🖼 Screenshots
+
+### 🔹 Upload Interface
+![Upload UI](assets/upload_ui.png)
+
+### 🔹 Upload Success Message
+![Upload Success](assets/upload_success.png)
+
+### 🔹 Resume Builder Page
+![Resume Builder](assets/resume_builder.png)
+
+### 🔹 Parsed Output Table
+![Output Table](assets/output_table.png)
+
+### 🔹 Parsed Output Table (Alternative View)
+![Output Table 2](assets/output_table2.png)
+
+### 🔹 Terminal Code Run
+![Code Run](assets/coderun.png)
+
+---
+
 ## 📂 File Structure
 
 ```bash
 Smart-Resume-System/
 ├── src/
-│   └── [your Python scripts]
+│   └── [Python scripts and logic]
 ├── assets/
 │   ├── upload_ui.png
-│   └── output_table.png
+│   ├── upload_success.png
+│   ├── resume_builder.png
+│   ├── output_table.png
+│   ├── output_table2.png
+│   └── coderun.png
 ├── docs/
 │   └── Smart-Resume-System-Presentation.pdf
 ├── requirements.txt
 ├── README.md
 └── LICENSE
 
+---
 
-## 🧪 How to Run Locally
+## How to Run Locally
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/KaurGurbani/Smart-Resume-System.git
-   cd Smart-Resume-System
+git clone https://github.com/KaurGurbani/Smart-Resume-System.git
+cd Smart-Resume-System
+
 2. Install dependencies:
 pip install -r requirements.txt
 
@@ -92,8 +119,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 Gurbani Kaur
 📧 gurbanikaur1702@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/gurbani-kaur-saluja/)
+🔗 LinkedIn
 🧑‍💻 GitHub
 
 ---
-
