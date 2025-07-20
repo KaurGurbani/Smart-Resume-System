@@ -64,7 +64,6 @@ An intelligent resume parsing and classification platform that automates resume 
 
 ## File Structure
 
-```bash
 Smart-Resume-System/
 ├── src/
 │   └── [Python scripts and logic]
