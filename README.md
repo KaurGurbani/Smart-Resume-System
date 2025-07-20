@@ -1,4 +1,5 @@
-# Smart-Resume-System
+
+# 📄 Smart Resume System
 
 An intelligent resume parsing and classification platform that automates resume processing and improves recruiter efficiency by up to 40%.
 
@@ -9,14 +10,14 @@ An intelligent resume parsing and classification platform that automates resume 
 
 ## 📚 Table of Contents
 
-- [Features](#-features)
-- [Tech Stack](#-techstack)
-- [File Structure](#-file-structure)
-- [How to Run Locally](#-how-to-run-locally)
-- [License](#-license)
-- [Contributing](#-contributing)
-- [Author](#-author)
-
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [File Structure](#file-structure)
+- [How to Run Locally](#how-to-run-locally)
+- [Documentation](#documentation)
+- [License](#license)
+- [Contributing](#contributing)
+- [Author](#author)
 
 ---
 
@@ -41,19 +42,19 @@ An intelligent resume parsing and classification platform that automates resume 
 
 ## 📂 File Structure
 
+```bash
 Smart-Resume-System/
-├── /src
-│ └── [your Python scripts]
-├── /assets
-│ └── upload_ui.png
-│ └── output_table.png
-├── /docs
-│ └── dataflow-diagram.png
+├── src/
+│   └── [your Python scripts]
+├── assets/
+│   ├── upload_ui.png
+│   └── output_table.png
+├── docs/
+│   └── Smart-Resume-System-Presentation.pdf
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-  
----
+
 
 ## 🧪 How to Run Locally
 
@@ -66,6 +67,12 @@ pip install -r requirements.txt
 
 3. Run the Python script:
 python src/resume_parser.py
+
+---
+
+## 🗂 Documentation
+
+📄 Smart Resume System – Minor Project Presentation (PDF)
 
 ---
 
